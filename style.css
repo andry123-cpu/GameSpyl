@@ -1,0 +1,35 @@
+/* Общие стили для навигационной панели */
+nav {
+    background-color: #333;
+}
+ 
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+ 
+.menu li a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: white;
+}
+ 
+.menu li:hover {
+    background-color: #111;
+}
+ 
+/* Стили для мега-меню */
+.mega-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 16px;
+    width: 100%;
+}
+ 
+.dropdown:hover .mega-menu {
+    display: block;
+}
