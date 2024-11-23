@@ -66,3 +66,9 @@ table tr td:last-child {
   color: white;
   font-size: 2em;
 }
+
+button {
+	width: 200px;
+	color: black;
+	background-color: white;
+}

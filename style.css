@@ -1,13 +1,14 @@
 /* Общие стили для навигационной панели */
 nav {
-    background-color: #333;
+    background-color: #277d08;
 }
- 
+
 .menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
+    width: auto;
 }
  
 .menu li a {
@@ -18,7 +19,7 @@ nav {
 }
  
 .menu li:hover {
-    background-color: #111;
+    background-color: #4a4747;
 }
  
 /* Стили для мега-меню */
@@ -33,3 +34,14 @@ nav {
 .dropdown:hover .mega-menu {
     display: block;
 }
+
+button {
+    width: 250px;
+    color: black;
+    background-color:rgb(236, 11, 11);
+    text-align: center;
+ }
+
+
+
+
